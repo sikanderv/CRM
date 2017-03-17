@@ -1,0 +1,9 @@
+/ ''= render @customers' in index to render this partial
+/ ''= render @customer' in show to render this partial
+/ Full expanded version: '= render partial: 'customer', collection: @customers, locals: {full_details: false}
+.customer
+  h2 = customer.full_name
+  = image_tag customer.image
+  div = customer.phone_number
+  Email: #{customer.email}
+  div = Notes: #{customer.notes}
