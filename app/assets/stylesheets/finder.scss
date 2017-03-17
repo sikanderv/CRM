@@ -1,0 +1,36 @@
+// Place all the styles related to the finder controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.customer {
+    display: inline-block;
+    overflow: hidden;
+    // display: table-cell;
+    box-shadow: 3px 0px 0px 0px;
+    border: 2px solid grey;
+    height: 400px;
+    width: 280px;
+    padding: 1em;
+    margin: 2em;
+
+    img {
+      max-width: 200px;
+      max-height: 350px;
+    }
+
+    div {
+      padding: 0.5em;
+    }
+
+    #underline{
+      text-decoration: underline;
+    }
+
+    #bold{
+      font-weight: bolder;
+      font-size: 30px;
+    }
+
+    ul {
+      display: inline-block;
+    }
+}
