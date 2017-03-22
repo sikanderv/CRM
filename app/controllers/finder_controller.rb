@@ -1,6 +1,6 @@
 class FinderController < ApplicationController
   def index
-    @customers = Customer.all
+    @customers = Customer.all  
   end
 
   def alphabetized
